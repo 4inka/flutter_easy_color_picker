@@ -86,7 +86,7 @@ class EasyColorPicker extends StatelessWidget {
       Colors.lightBlue,
       Colors.blue
     ]
-  });
+  }) : assert(colors.isNotEmpty, 'Color list cannot be empty');
 
   @override
   Widget build(BuildContext context) {
