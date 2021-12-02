@@ -3,7 +3,7 @@
 <a href="https://www.buymeacoffee.com/4inka" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Pizza" style="height: 60px !important;width: 217px !important;" ></a>
 
 
-A Flutter plugin to help you with color selection.
+A Flutter plugin to help you with color selection.<br/>
 A lightweight and flexible package that can be used inside any page or dialog
 
 ## Preview
@@ -64,7 +64,7 @@ class _ExampleState extends State<Example> {
 ## API
 | Attribute | Type | Required | Description | Default value |
 |:---|:---|:---:|:---|:---|
-| selected | `Color` | :heavy_check_mark: | The current selected color from color picker | Colors.deepPurple |
+| selected | `Color` | :heavy_check_mark: | The current selected color from color picker |  |
 | onChanged | `Function(Color)` | :heavy_check_mark: | Function that returns the current selected color clicked by user |  |
 | colorSelectorSize | `double` | :x: | The size for each color selector option | 30 |
 | colorSelectorBorderRadius | `double` | :x: | Border radius for each color selector | 5 |
@@ -77,7 +77,7 @@ class _ExampleState extends State<Example> {
 ## Issues & Suggestions
 If you encounter any issue you or want to leave a suggestion you can do it by filling an [issue](https://github.com/4inka/flutter_easy_color_picker/issues).
 
-## Our other packages
+## Other packages
 * [Quantity Input](https://pub.dev/packages/quantity_input)
 * [Easy Search Bar](https://pub.dev/packages/easy_search_bar)
 
